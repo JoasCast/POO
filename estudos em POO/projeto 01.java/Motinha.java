@@ -29,7 +29,12 @@ public class Motinha {
     }
     public static void main(String[] args) {
         Motinha Pop = new Motinha();
-    
+     Pop.passear();
+     Pop.passear();
+     Pop.passear();
+     Pop.passear();
+     Pop.passear();
+     Pop.barruada();
         
     }
 }

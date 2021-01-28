@@ -3,3 +3,4 @@
 -sem muitas dificuldades
 -somente o computador que é bem lento
 -fiz sosinho
+- demorou pouco pois fiz vendo a aula

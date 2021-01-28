@@ -4,3 +4,4 @@
 *poucas duvidas
 *fiz sozinho
 *o pc não tava rodando o codigo mesmo sem ter nenhum erro
+*demorou umas duas horas ou menos

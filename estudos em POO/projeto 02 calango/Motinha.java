@@ -38,7 +38,9 @@ public class Motinha {
         }
     }
     public static void main(String[] args) {
-        Motinha Pop = new Motinha(5, 50);
+        Motinha pop = new Motinha(5, 50);
         Motinha bis = new Motinha(5, 50);
+        bis.passear();
+        pop.passear();
     }
 }

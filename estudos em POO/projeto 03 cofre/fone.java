@@ -1,9 +1,9 @@
-class pessoa{
+class Pessoa{
     String nome;
-    fone fone;
-    pessoa(String nome){
+    Fone fone;
+    Pessoa(String nome){
         this.nome = nome;
-        this.fone = new fone();
+        this.fone = new Fone();
     }
     void ouvirMusica(String nomeMusica, int numeroMusica){
         this.fone.setBateria(10*numeroMusica);
@@ -14,12 +14,12 @@ class pessoa{
         return "nome: " + nome;
     }
 }
-public class fone {
+public class Fone {
        int volume;
        int bateria;
        int volumeMaximo;
        int bateriaMaxima;
-       public fone(){
+       public Fone(){
         this.volumeMaximo=100;
         this.bateriaMaxima=100;
         this.volume=volumeMaximo;
@@ -57,6 +57,7 @@ public class fone {
                System.out.println("sem bateria");
            }else{
                volume += 10;
+               System.out.println(volume);
            }
         }
        }
@@ -69,6 +70,7 @@ public class fone {
             System.out.println("sem bateria");
         }else{
             volume -= 10;
+            System.out.println(volume);
         }
      }
     }
@@ -80,7 +82,7 @@ public class fone {
         return "vol :" + volume + "bateria :" + bateria;
     }
     public static void main(String[] args) {
-        pessoa joas = new pessoa("Joás");
+        Pessoa joas = new Pessoa("Joás");
         joas.ouvirMusica("União Flasco", 6);
         joas.fone.recarregar(2);
         joas.fone.recarregar(4);
